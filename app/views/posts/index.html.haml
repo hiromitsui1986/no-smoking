@@ -1,0 +1,45 @@
+.wrapper  
+  .start
+    .start__font 開始日時
+    .day#day
+      = @post.created_at.strftime("%Y年%m月%d日 %H時%M分")
+    
+    .content
+      .list 
+        = fa_icon "clock-o", id: "icon_h" 
+        
+        禁煙時間
+        .timer#timer 
+          %body{onload: "disp()"}
+          %form{action: "#", name: "form1", id: "form", id: "form" }
+            
+            %input{name: "field1",size: "3", type: "text", id: "hour"}
+            時間
+            %input{name: "field2", size: "2", type: "text", id: "min"}
+            分
+            %input{name: "field3", size: "2", type: "text", id: "sec"}
+            秒
+
+
+      .list
+        = fa_icon "minus-square" , id: "icon_num"
+        
+        タバコの種類 
+        %br 
+        %p #{@post.brand}
+        
+          
+      .list
+        = fa_icon "jpy", id: "icon_mo"
+        
+        一箱の金額
+        %br 
+        %p #{@post.price} 
+        %p 円
+
+      .reset
+        = link_to "リセット", top_posts_path(@posts), method: :delete, id: "foo"
+
+      .icon
+        =link_to edit_post_path(@post),data: {"turbolinks": false} do
+          = fa_icon "file-text", id: "rewrite"

@@ -1,0 +1,13 @@
+.post-form 
+  %p#content PLEASE ENTER
+  
+  = form_with model: @post, local: true do |f|
+    = render 'layouts/error_messages', model: f.object
+    .post-form__num 銘柄  
+    = f.select :brand, [["MarlBoro", "MarlBoro"], ["SevenStar", "SevenStar"], ["LUCKY STRIKE","LUCKY STRIKE"], ["LARL", "LARK"], ["hi-lite", "hi-lite"], ["KOOL", "KOOL"], ["CAMEL", "CAMEL"], ["PIECE", "PIECE"], ["HEETS", "HEETS"]], prompt: "選択してください"
+    
+    .post-form__num １箱の値段
+    = f.number_field :price, class: "post-form__boxes", max: "1000", min: "200", step: "10", value: "300"
+
+    .post-form__num 
+    = f.submit "START", class: "post-form__boxes"

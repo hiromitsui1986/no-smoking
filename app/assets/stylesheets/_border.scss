@@ -1,0 +1,8 @@
+@mixin border() {
+  & {
+    border: solid;
+    border-radius: 10px;
+  }
+}
+
+$indexBlue: rgb(0, 128, 38);

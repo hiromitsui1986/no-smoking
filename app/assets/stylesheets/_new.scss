@@ -1,0 +1,64 @@
+.new{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: url(https://cdn.pixabay.com/photo/2015/08/14/07/51/gradient-888106_1280.jpg);
+  background-size: cover;
+  .change{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 90px;
+    color: red;
+  }
+  .post-form{
+    height: 480px;
+    width: 400px;
+    position: absolute;
+    border-radius: 20px;
+    top: 55%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%); 
+    text-align: center;
+    p{
+      font-size: 40px;
+      margin-bottom: 50px;
+      margin-top: 10px;
+      margin-left: 40px;
+      border-bottom: solid 3px;
+      border-color: $indexBlue;
+      max-width: 320px;
+      text-align: center;
+    }
+    &__num{
+      font-size: 30px;
+    }
+    #post_brand{
+      margin-bottom: 20px;
+      height: 50px;
+      width: 230px;
+      border-radius: 5px;
+      font-size: 25px;
+      text-align: center;
+    }
+    &__boxes {
+      margin-bottom: 10px;
+      height: 50px;
+      width: 230px;
+      border-radius: 5px;
+      font-size: 25px;
+      text-align: center;
+    }
+    &__boxes:last-child{
+      background-color: white;
+      height: 40px;
+      width: 110px;
+      font-size: 30px;
+      margin-top: 40px;
+      line-height: 40px;
+    } 
+    &__boxes:last-child:hover{
+      color: $indexBlue;
+    }
+  }
+}

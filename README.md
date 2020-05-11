@@ -1,6 +1,6 @@
 # README
 
-![NO-SMOKING](https://gyazo.com/d5ca91d53c9f436da7e65b3bdcb824ec)
+![NO-SMOKING](https://user-images.githubusercontent.com/53480697/81530256-762b8900-939b-11ea-839d-206c526963ca.png)
 
 ### 使い方
 トップページ「START」ボタンから入り銘柄、値段を入力してください。再び「START」をクリックするとタイマーが起動します。

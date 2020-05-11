@@ -1,3 +1,3 @@
 # README
 
-![代替テキスト](https://gyazo.com/5ebcb921c73ec031c6218ef1710ecb0e)
+![NO-SMOKING](https://gyazo.com/716ce13c2d20f875b4a3a7cdd9d3dfe3)

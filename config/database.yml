@@ -52,3 +52,10 @@ production:
   database: no-smoking_production
   username: no-smoking
   password: <%= ENV['NO-SMOKING_DATABASE_PASSWORD'] %>
+
+production:
+
+  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

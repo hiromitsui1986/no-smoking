@@ -15,7 +15,7 @@ NO-SMOKNG
 ### 使い方
 トップページ「START」ボタンから入り銘柄、値段を入力してください。再び「START」をクリックするとタイマーが起動します。
 
-![no-smoking]()
+![NO-smoking](https://user-images.githubusercontent.com/53480697/82028216-4bf60600-96d0-11ea-9d73-994eb0530c45.jpg)
   
 ### 開発環境
 ruby/rubyonrails/JQuery/MySQL/github/Vicual Studio Code/heroku

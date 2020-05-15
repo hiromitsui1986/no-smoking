@@ -1,21 +1,26 @@
 # README
 
-### アプリ名
+## アプリ名
 
-NO-SMOKNG
+## NO-SMOKNG
 
+### 使い方
+トップページ「START」ボタンから入り銘柄、値段を入力してください。再び「START」をクリックするとタイマーが起動します。
+
+
+### 1、TOPページよりSTARTをクリックしてください。
 ![NO-SMOKING](https://user-images.githubusercontent.com/53480697/81530256-762b8900-939b-11ea-839d-206c526963ca.png)
+
+### 2、銘柄、値段を入力しSTARTをクリックしてください。
+![NO-smoking](https://user-images.githubusercontent.com/53480697/82028216-4bf60600-96d0-11ea-9d73-994eb0530c45.jpg)
+
+### 3、禁煙を始めた日時、経過時間、銘柄、値段を表示します。リセットをクリックするとデータをリセットしTOPページに戻ります。テキストマークをクリックすると編集ページに移行します。
+![NO=SMOKING](https://user-images.githubusercontent.com/53480697/82028968-41883c00-96d1-11ea-9a69-c82ec755bf4a.png)
 
 ### 接続先
 
 こちらから　🔜
 　https://nooo-smoking.herokuapp.com/
-
-
-### 使い方
-トップページ「START」ボタンから入り銘柄、値段を入力してください。再び「START」をクリックするとタイマーが起動します。
-
-![NO-smoking](https://user-images.githubusercontent.com/53480697/82028216-4bf60600-96d0-11ea-9d73-994eb0530c45.jpg)
   
 ### 開発環境
 ruby/rubyonrails/JQuery/MySQL/github/Vicual Studio Code/heroku
